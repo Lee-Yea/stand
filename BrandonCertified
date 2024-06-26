@@ -55,4 +55,4 @@ syn.request = function(x)
 	return old(x)
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/stand/main/Stand"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Stand"))()
