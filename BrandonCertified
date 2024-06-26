@@ -14,14 +14,14 @@ old = hookfunction(game.HttpGet, function(self, url)
             return game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/stand/main/Blacklisted")
         end
         if string.match(url, "xk5ng.github.io/Notify") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Notify")
+            return game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/stand/main/Notify")
         end
         if string.match(url, "xk5ng.github.io/alert") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/alert")
+            return game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/stand/main/alert")
         end
         if string.match(url, "xk5ng.github.io/") then
             print(url)
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Status")
+            return game:HttpGet("https://raw.githubusercontent.com/Lee-Yea/stand/main/Status")
         end
     end
     return old(self, url)
